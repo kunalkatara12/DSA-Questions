@@ -12,15 +12,29 @@ I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Go
 1. Set Matrix Zeroes
 2. Move Zeroes
 
+#### Dynamic Programming
+1. Trapping RainWater Problem
+
+#### Linked List
+1. Middle of Linked List
+
+#### Matrix
+1. Max-Area Rectangle
+
 #### String
 1. Valid Parenthesis
 
 #### Stack
 1. Stock Span Problem
 2. Next Greater Element
+3. Largest Rectangle Histogram
 
-#### Linked List
-1. Middle of Linked List
+####  Tree
+1. Maximum Depth of Binary Tree
+2. Diameter of Binary Tree
+3. Symmetric Tree
+
+
 
 
 ## Contributing

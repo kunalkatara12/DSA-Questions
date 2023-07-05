@@ -28,6 +28,7 @@ I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Go
 1. Stock Span Problem
 2. Next Greater Element
 3. Largest Rectangle Histogram
+4. Evaluation of Postfix Expression
 
 ####  Tree
 1. Maximum Depth of Binary Tree

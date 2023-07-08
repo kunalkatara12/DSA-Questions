@@ -11,6 +11,7 @@ I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Go
 #### Array: 
 1. Set Matrix Zeroes
 2. Move Zeroes
+3. Two Sum
 
 #### Dynamic Programming
 1. Trapping RainWater Problem

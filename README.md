@@ -19,7 +19,7 @@ I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Go
 
 #### Graph
 1. BFS Traversal
-
+2. DFS Traversal
 #### Linked List
 1. Middle of Linked List
 2. Linked List Cycle

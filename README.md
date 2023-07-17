@@ -23,7 +23,8 @@ I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Go
 3. No. of Provinces
 4. Flood Fill
 5. Find Center of Star Graph
-#### Linked List
+6. Detect Cycle in Undirected Graph
+### Linked List
 1. Middle of Linked List
 2. Linked List Cycle
 3. Convert Binary Number to Linked List to Integer

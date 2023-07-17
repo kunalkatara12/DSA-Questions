@@ -51,53 +51,55 @@ using namespace std;
 
 int orangesRotting(vector<vector<int>> &grid)
 {
-    int n = grid.size(),m = grid[0].size(), tm = 0;
-    int vis[n][m];
+    int m = grid.size(), n = grid[0].size();
+    int vis[m][n];
     queue<pair<pair<int, int>, int>> q;
-
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < m; i++)
     {
-        for (int j = 0; j < m; j++)
+        for (int j = 0; j < n; j++)
         {
             if (grid[i][j] == 2)
             {
-                q.push({{i, j}, tm});
                 vis[i][j] = 2;
+                q.push({{i, j}, 0});
             }
             else
                 vis[i][j] = 0;
         }
     }
-    
-    int drow[] = {-1, 0, +1, 0};
-    int dcol[] = {0, +1, 0, -1};
-
+    int tm = 0;
+    int dR[] = {-1, 0, 1, 0};
+    int dC[] = {0, 1, 0, -1};
     while (!q.empty())
     {
         int r = q.front().first.first;
         int c = q.front().first.second;
         int t = q.front().second;
-        tm = max(tm, t);
         q.pop();
+        tm = max(t, tm);
         for (int i = 0; i < 4; i++)
         {
-            int nrow = r + drow[i];
-            int ncol = c + dcol[i];
-            if (nrow >= 0 && nrow < n && ncol >= 0 && ncol < m && vis[nrow][ncol] == 0 && grid[nrow][ncol] == 1)
+            int nR = r + dR[i];
+            int nC = c + dC[i];
+            if (
+                (nR >= 0 && nR < m) &&
+                (nC >= 0 && nC < n) &&
+                vis[nR][nC] != 2 &&
+                grid[nR][nC] == 1)
             {
-                q.push({{nrow, ncol}, t + 1});
-                vis[nrow][ncol] = 2;
+                q.push({{nR, nC}, t + 1});
+                vis[nR][nC] = 2;
             }
         }
     }
-
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < m; i++)
     {
-        for (int j = 0; j < m; j++)
+        for (int j = 0; j < n; j++)
         {
             if (vis[i][j] != 2 && grid[i][j] == 1)
                 return -1;
         }
     }
     return tm;
+
 }

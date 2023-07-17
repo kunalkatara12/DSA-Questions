@@ -36,6 +36,7 @@ I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Go
 #### Matrix
 1. Max-Area Rectangle
 2. No. of Islands
+3. Search a 2d matrix
 
 #### String
 1. Valid Parenthesis

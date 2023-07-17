@@ -3,7 +3,7 @@
 I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Goyal.
 
 
-## Total no. of Questions as of now: 25
+## Total no. of Questions as of now: 26
 ## Language
 
 * C++
@@ -25,6 +25,7 @@ I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Go
 4. Flood Fill
 5. Find Center of Star Graph
 6. Detect Cycle in Undirected Graph
+
 ### Linked List
 1. Middle of Linked List
 2. Linked List Cycle
@@ -34,6 +35,7 @@ I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Go
 
 #### Matrix
 1. Max-Area Rectangle
+2. No. of Islands
 
 #### String
 1. Valid Parenthesis

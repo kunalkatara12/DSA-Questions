@@ -3,7 +3,7 @@
 I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Goyal.
 
 
-## Total no. of Questions as of now: 29
+## Total no. of Questions as of now: 30
 ## Language
 
 * C++
@@ -15,6 +15,7 @@ I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Go
 3. Two Sum
 4. Choclate Distribution Problem
 5. Best Time to Buy and Sell Stock
+6. Pascal's Triangle
 
 #### Dynamic Programming
 1. Trapping RainWater Problem

@@ -16,6 +16,7 @@ I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Go
 4. Choclate Distribution Problem
 5. Best Time to Buy and Sell Stock
 6. Pascal's Triangle
+7. 3 Sum
 
 #### Dynamic Programming
 1. Trapping RainWater Problem

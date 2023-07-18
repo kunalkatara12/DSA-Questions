@@ -3,7 +3,7 @@
 I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Goyal.
 
 
-## Total no. of Questions as of now: 28
+## Total no. of Questions as of now: 29
 ## Language
 
 * C++

@@ -3,7 +3,7 @@
 I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Goyal.
 
 
-## Total no. of Questions as of now: 34
+## Total no. of Questions as of now: 35
 ## Language
 
 * C++
@@ -35,7 +35,7 @@ I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Go
 2. Linked List Cycle
 3. Convert Binary Number to Linked List to Integer
 4. Add Two Numbers
-
+5. Reverse a Linked List
 
 #### Matrix
 1. Max-Area Rectangle

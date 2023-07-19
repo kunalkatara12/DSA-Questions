@@ -17,6 +17,7 @@ I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Go
 5. Best Time to Buy and Sell Stock
 6. Pascal's Triangle
 7. 3 Sum
+8. Find Duplicates
 
 #### Dynamic Programming
 1. Trapping RainWater Problem

@@ -3,7 +3,7 @@
 I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Goyal.
 
 
-## Total no. of Questions as of now: 36
+## Total no. of Questions as of now: 38
 ## Language
 
 * C++
@@ -22,6 +22,8 @@ I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Go
 #### Dynamic Programming
 1. Trapping RainWater Problem
 2. 0-1 Knapsack Problem
+3. Subset Sum
+4. Partition Equal Subset Sum
 
 #### Graph
 1. BFS Traversal

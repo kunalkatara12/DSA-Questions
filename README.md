@@ -3,7 +3,7 @@
 I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Goyal.
 
 
-## Total no. of Questions as of now: 38
+## Total no. of Questions as of now: 39
 ## Language
 
 * C++
@@ -24,6 +24,7 @@ I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Go
 2. 0-1 Knapsack Problem
 3. Subset Sum
 4. Partition Equal Subset Sum
+5. Count Subset with sum K
 
 #### Graph
 1. BFS Traversal

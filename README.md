@@ -3,7 +3,7 @@
 I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Goyal.
 
 
-## Total no. of Questions as of now: 42
+## Total no. of Questions as of now: 43
 ## Language
 
 * C++
@@ -28,6 +28,7 @@ I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Go
 6. Rod Cutting
 7. Coin Change
 8. Minimum No. of Coins
+9. Longest Common Subsequence
 
 #### Graph
 1. BFS Traversal

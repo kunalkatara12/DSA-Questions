@@ -3,7 +3,7 @@
 I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Goyal.
 
 
-## Total no. of Questions as of now: 45
+## Total no. of Questions as of now: 49
 ## Language
 
 * C++
@@ -71,7 +71,11 @@ I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Go
 1. Maximum Depth of Binary Tree
 2. Diameter of Binary Tree
 3. Symmetric Tree
-
+4. Left View of Binary Tree
+5. Top View of Binary Tree
+6. Level Order Traversal
+7. Vertical Order Traversal
+ 
 
 
 

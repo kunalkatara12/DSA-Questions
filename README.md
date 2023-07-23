@@ -85,7 +85,8 @@ Contributions are always welcome! You can contribute if you discover an alternat
 
 
 ## Links:
-1. Leetcode: https://leetcode.com/kunalkatara888/
+1. [Leetcode](https://leetcode.com/kunalkatara888/)
+2. [Hackerrank](https://www.hackerrank.com/kunalkatara888?hr_r=1)
 
 ## References:
 1. Dynamic Programming: [Aditya Verma](https://www.youtube.com/playlist?list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go),

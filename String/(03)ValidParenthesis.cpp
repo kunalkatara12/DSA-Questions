@@ -28,6 +28,7 @@ bool isValid(string s)
     stack<char> st;
     //   st.push(s[0]);
     int i = 0;
+
     for (int i = 0; i < s.length(); i++)
     {
 

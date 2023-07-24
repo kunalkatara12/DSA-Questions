@@ -3,7 +3,7 @@
 I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Goyal.
 
 
-## Total no. of Questions as of now: 50
+## Total no. of Questions as of now: 52
 ## Language
 
 * C++
@@ -18,6 +18,7 @@ I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Go
 6. Pascal's Triangle
 7. 3 Sum
 8. Find Duplicates
+9. Kth Largest Element 
 
 #### Dynamic Programming
 1. Trapping RainWater Problem
@@ -76,7 +77,7 @@ I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Go
 6. Level Order Traversal
 7. Vertical Order Traversal
 8. Maximum Width of Binary Tree
- 
+9. Kth Largest Element in BST 
 
 
 

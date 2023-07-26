@@ -3,7 +3,7 @@
 I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Goyal.
 
 
-## Total no. of Questions as of now: 52
+## Total no. of Questions as of now: 53
 ## Language
 
 * C++
@@ -55,6 +55,7 @@ I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Go
 
 #### Recursion
 1. Sort Colors
+2. Subset Sums
 #### String
 1. Valid Parenthesis
 

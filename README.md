@@ -3,7 +3,7 @@
 I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Goyal.
 
 
-## Total no. of Questions as of now: 58
+## Total no. of Questions as of now: 59
 ## Language
 
 * C++
@@ -51,6 +51,7 @@ I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Go
 6. Starting Point of Cycle in Linke List
 7. Merge Two Sorted List
 8. Remove Kth Node
+9. Delete Node in a Linked List
 #### Matrix
 1. Max-Area Rectangle
 2. No. of Islands

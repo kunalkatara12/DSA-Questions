@@ -3,7 +3,7 @@
 I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Goyal.
 
 
-## Total no. of Questions as of now: 59
+## Total no. of Questions as of now: 60
 ## Language
 
 * C++
@@ -20,6 +20,7 @@ I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Go
 8. Find Duplicates
 9. Kth Largest Element 
 10. 4 Sum
+11. Next Permutation
 
 #### Dynamic Programming
 1. Trapping RainWater Problem

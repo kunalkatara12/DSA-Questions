@@ -3,7 +3,7 @@
 I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Goyal.
 
 
-## Total no. of Questions as of now: 61
+## Total no. of Questions as of now: 62
 ## Language
 
 * C++
@@ -67,6 +67,7 @@ I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Go
 1. Sliding Window Maximum
 #### String
 1. Valid Parenthesis
+2. Reverse a String
 
 #### Stack and Queues
 1. Stock Span Problem

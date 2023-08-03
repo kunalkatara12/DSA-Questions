@@ -105,7 +105,7 @@ Contributions are always welcome! You can contribute if you discover an alternat
 
 ## References:
 1. Dynamic Programming: [Aditya Verma](https://www.youtube.com/playlist?list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go),
-2. Sliding Window: [Aditya Verma](: https://www.youtube.com/playlist?list=PL_z_8CaSLPWeM8BDJmIYDaoQ5zuwyxnfj)
+2. Sliding Window: [Aditya Verma](https://www.youtube.com/playlist?list=PL_z_8CaSLPWeM8BDJmIYDaoQ5zuwyxnfj)
 3. Heap: [Aditya Verma](https://www.youtube.com/playlist?list=PL_z_8CaSLPWdtY9W22VjnPxG30CXNZpI9)
 4. Trees: [Take U Forward](https://www.youtube.com/playlist?list=PLgUwDviBIf0q8Hkd7bK2Bpryj2xVJk8Vk)
 5. Graph: [Take U Forward](https://www.youtube.com/playlist?list=PLgUwDviBIf0oE3gA41TKO2H5bHpPd7fzn)

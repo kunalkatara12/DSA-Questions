@@ -3,7 +3,7 @@
 I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Goyal.
 
 
-## Total no. of Questions as of now: 62
+## Total no. of Questions as of now: 63
 ## Language
 
 * C++
@@ -68,6 +68,7 @@ I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Go
 #### String
 1. Valid Parenthesis
 2. Reverse a String
+3. Roman-Int
 
 #### Stack and Queues
 1. Stock Span Problem
@@ -97,13 +98,21 @@ I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Go
 Contributions are always welcome! You can contribute if you discover an alternative and improved solution for the **Solved** questions.
 
 
-## Links:
+## Profiles:
 1. [Leetcode](https://leetcode.com/kunalkatara888/)
 2. [Hackerrank](https://www.hackerrank.com/kunalkatara888?hr_r=1)
+3. [Codechef](https://www.codechef.com/users/kunalkatara12)
 
 ## References:
 1. Dynamic Programming: [Aditya Verma](https://www.youtube.com/playlist?list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go),
+2. Sliding Window: [Aditya Verma](: https://www.youtube.com/playlist?list=PL_z_8CaSLPWeM8BDJmIYDaoQ5zuwyxnfj)
+3. Heap: [Aditya Verma](https://www.youtube.com/playlist?list=PL_z_8CaSLPWdtY9W22VjnPxG30CXNZpI9)
+4. Trees: [Take U Forward](https://www.youtube.com/playlist?list=PLgUwDviBIf0q8Hkd7bK2Bpryj2xVJk8Vk)
+5. Graph: [Take U Forward](https://www.youtube.com/playlist?list=PLgUwDviBIf0oE3gA41TKO2H5bHpPd7fzn)
+6. Stack: [Aditya Verma](https://www.youtube.com/playlist?list=PL_z_8CaSLPWdeOezg68SKkeLN4-T_jNHd)
 
+## SDE sheet: 
+[Striver SDE Sheet](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/#)
 
 
 

@@ -3,7 +3,7 @@
 I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Goyal.
 
 
-## Total no. of Questions as of now: 65
+## Total no. of Questions as of now: 66
 ## Language
 
 * C++
@@ -71,6 +71,7 @@ I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Go
 3. Roman-Int
 4. My ATOI
 5. Check for Anagram
+6. KMP Algorithm
 
 #### Stack and Queues
 1. Stock Span Problem

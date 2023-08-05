@@ -1,4 +1,4 @@
-# 45daysDSA-Challenge
+# DSA Questions
 
 I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Goyal.
 

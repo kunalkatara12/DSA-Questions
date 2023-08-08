@@ -3,7 +3,7 @@
 I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Goyal.
 
 
-## Total no. of Questions as of now: 69
+## Total no. of Questions as of now: 70
 ## Language
 
 * C++
@@ -85,6 +85,7 @@ I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Go
 6. Rotten Oranges
 7. Distance of Nearest Cell having 1
 8. Sort a stack
+9. Min Stack
 
 ####  Tree
 1. Maximum Depth of Binary Tree

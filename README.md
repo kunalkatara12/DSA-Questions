@@ -3,7 +3,7 @@
 I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Goyal.
 
 
-## Total no. of Questions as of now: 76
+## Total no. of Questions as of now: 77
 ## Language
 
 * C++
@@ -103,6 +103,7 @@ I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Go
 11. Morris Preorder Traversal
 12. Root to Leaf
 13. Bottom View of Binary Tree
+14. Balanced Binary Tree
 
 
 ## Contributing

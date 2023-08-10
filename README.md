@@ -3,7 +3,7 @@
 I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Goyal.
 
 
-## Total no. of Questions as of now: 74
+## Total no. of Questions as of now: 75
 ## Language
 
 * C++
@@ -101,6 +101,7 @@ I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Go
 9. Kth Largest Element in BST 
 10. Morris Inorder Traversal
 11. Morris Preorder Traversal
+12. Root to Leaf
 
 
 ## Contributing

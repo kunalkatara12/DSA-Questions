@@ -3,7 +3,7 @@
 I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Goyal.
 
 
-## Total no. of Questions as of now: 81
+## Total no. of Questions as of now: 82
 ## Language
 
 * C++
@@ -24,6 +24,7 @@ I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Go
 12. Largest Subarray with 0 Sum
 13. Unique Paths
 14. Count subarrays with XOR K
+15. Pow(x,n)
 #### Dynamic Programming
 1. Trapping RainWater Problem
 2. 0-1 Knapsack Problem

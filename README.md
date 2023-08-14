@@ -3,7 +3,7 @@
 I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Goyal.
 
 
-## Total no. of Questions as of now: 82
+## Total no. of Questions as of now: 83
 ## Language
 
 * C++
@@ -25,6 +25,7 @@ I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Go
 13. Unique Paths
 14. Count subarrays with XOR K
 15. Pow(x,n)
+16. Reverse Pairs
 #### Dynamic Programming
 1. Trapping RainWater Problem
 2. 0-1 Knapsack Problem

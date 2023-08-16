@@ -3,7 +3,7 @@
 I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Goyal.
 
 
-## Total no. of Questions as of now: 85
+## Total no. of Questions as of now: 86
 ## Language
 
 * C++
@@ -115,6 +115,7 @@ I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Go
 13. Bottom View of Binary Tree
 14. Balanced Binary Tree
 15. Identical Tree
+16. Populating Next Right Pointer
 
 
 ## Contributing

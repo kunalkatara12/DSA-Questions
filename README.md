@@ -3,7 +3,7 @@
 I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Goyal.
 
 
-## Total no. of Questions as of now: 87
+## Total no. of Questions as of now: 88
 ## Language
 
 * C++
@@ -117,6 +117,7 @@ I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Go
 15. Identical Tree
 16. Populating Next Right Pointer
 17. Max Path Sum
+18. Zig Zag Order Traversal
 
 
 ## Contributing

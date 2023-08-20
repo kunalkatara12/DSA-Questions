@@ -3,7 +3,7 @@
 I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Goyal.
 
 
-## Total no. of Questions as of now: 92
+## Total no. of Questions as of now: 93
 ## Language
 
 * C++
@@ -45,6 +45,7 @@ I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Go
 11. Print LCS
 12. Print Shortest Common Supersequence
 13. Matrix Chain Multiplication 
+14. Palindrome Partitioning
 
 #### Graph
 1. BFS Traversal

@@ -3,7 +3,7 @@
 I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Goyal.
 
 
-## Total no. of Questions as of now: 97
+## Total no. of Questions as of now: 98
 ## Language
 
 * C++
@@ -29,6 +29,7 @@ I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Go
 17. Repeat and Missing Number
 18. Maximum Subarray Sum - Kadane's
 19. Merge Overlapping Subintervals
+20. Merge Sorted Array
 #### Binary Search Tree
 1. Search Key in a BST
 2. Construct a BST from given sorted keys

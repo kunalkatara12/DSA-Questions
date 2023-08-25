@@ -3,7 +3,7 @@
 I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Goyal.
 
 
-## Total no. of Questions as of now: 98
+## Total no. of Questions as of now: 99
 ## Language
 
 * C++
@@ -50,6 +50,7 @@ I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Go
 14. Palindrome Partitioning
 15. Longest Increasing Subsequence
 16. Maximum Product Subarray
+17. Word Break
 
 #### Graph
 1. BFS Traversal

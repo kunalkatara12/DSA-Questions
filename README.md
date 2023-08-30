@@ -3,7 +3,7 @@
 I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Goyal.
 
 
-## Total no. of Questions as of now: 104
+## Total no. of Questions as of now: 105
 ## Language
 
 * C++
@@ -35,6 +35,7 @@ I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Go
 1. Search Key in a BST
 2. Construct a BST from given sorted keys
 3. Construct a BST from preorder traversal
+4. Validate BST
 #### Dynamic Programming
 1. Trapping RainWater Problem
 2. 0-1 Knapsack Problem

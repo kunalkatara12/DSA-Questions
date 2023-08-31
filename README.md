@@ -3,7 +3,7 @@
 I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Goyal.
 
 
-## Total no. of Questions as of now: 105
+## Total no. of Questions as of now: 106
 ## Language
 
 * C++
@@ -31,6 +31,7 @@ I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Go
 19. Merge Overlapping Subintervals
 20. Merge Sorted Array
 21. Min operations to form subsequendce with target sum
+22. Longest Consecutive Sequence
 #### Binary Search Tree
 1. Search Key in a BST
 2. Construct a BST from given sorted keys

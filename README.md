@@ -3,7 +3,7 @@
 I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Goyal.
 
 
-## Total no. of Questions as of now: 110
+## Total no. of Questions as of now: 111
 ## Language
 
 * C++
@@ -68,6 +68,7 @@ I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Go
 6. Detect Cycle in Undirected Graph
 7. Topological Sort
 8. Bipartite Graph BFS
+9. Strongly Connected Components
 
 #### Greedy
 1. N meetings in a room

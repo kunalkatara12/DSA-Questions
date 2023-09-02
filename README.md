@@ -3,7 +3,7 @@
 I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Goyal.
 
 
-## Total no. of Questions as of now: 107
+## Total no. of Questions as of now: 108
 ## Language
 
 * C++
@@ -71,6 +71,7 @@ I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Go
 1. N meetings in a room
 2. Min Platforms
 3. Job Sequencing Problem
+4. Fractional Knapsack
 
 ### Linked List
 1. Middle of Linked List

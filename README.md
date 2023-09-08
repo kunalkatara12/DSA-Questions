@@ -3,7 +3,7 @@
 I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Goyal.
 
 
-## Total no. of Questions as of now: 113
+## Total no. of Questions as of now: 114
 ## Language
 
 * C++
@@ -57,6 +57,7 @@ I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Go
 17. Word Break
 18. Egg Dropping
 19. Russian Doll Envelopes
+20. Maximum Sum Increasing Subsequence
 
 
 #### Graph

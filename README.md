@@ -3,7 +3,7 @@
 I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Goyal.
 
 
-## Total no. of Questions as of now: 115
+## Total no. of Questions as of now: 116
 ## Language
 
 * C++
@@ -73,6 +73,7 @@ I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Go
 10. Shortest Path in Unweighted Graph
 11. Dijkstra Algo
 12. MST using Prims
+13. MST using Kruskal
 
 #### Greedy
 1. N meetings in a room

@@ -3,7 +3,7 @@
 I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Goyal.
 
 
-## Total no. of Questions as of now: 118
+## Total no. of Questions as of now: 120
 ## Language
 
 * C++
@@ -109,6 +109,8 @@ I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Go
 #### Sliding Window
 1. Sliding Window Maximum
 2. Longest Substring without repeating characters
+3. Maximum sum of almost unique subarray
+4. Minimum Window Substring
 #### String
 1. Valid Parenthesis
 2. Reverse a String

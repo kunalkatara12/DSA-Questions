@@ -59,7 +59,10 @@ I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Go
 19. Russian Doll Envelopes
 20. Maximum Sum Increasing Subsequence
 21. Minimum Sum Path
-
+22. Minimum No Of Insertions and Deletion
+23. Two Egg Drop
+24. Largest Divisible Subset
+25. Print Longest Increasing Subsequence(LIS)
 
 #### Graph
 1. BFS Traversal

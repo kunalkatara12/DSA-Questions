@@ -69,6 +69,7 @@ I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Go
 23. Two Egg Drop
 24. Largest Divisible Subset
 25. Print Longest Increasing Subsequence(LIS)
+26. Generate Parenthesis
 
 #### Graph
 

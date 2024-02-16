@@ -37,6 +37,7 @@ I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Go
 
 #### Backtracking
 1. Permutations of a String
+2. Find Largest No. in K Swaps
 
 #### Binary Search Tree
 
@@ -202,5 +203,5 @@ Contributions are always welcome! You can contribute if you discover an alternat
 
 [Striver SDE Sheet](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/#)
 
-### Solved: 126
+### Solved: 127
 

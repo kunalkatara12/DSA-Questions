@@ -1,8 +1,6 @@
 # DSA Questions
 
-I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Goyal.
-
-## Total no. of Questions as of now: 120
+## Total no. of Questions as of now: 127
 
 ## Language
 
@@ -203,5 +201,5 @@ Contributions are always welcome! You can contribute if you discover an alternat
 
 [Striver SDE Sheet](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/#)
 
-### Solved: 127
+
 

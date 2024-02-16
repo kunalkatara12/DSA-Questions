@@ -35,6 +35,9 @@ I will solve around 4-5 DSA based questions daily from this DSA sheet by Arsh Go
 21. Min operations to form subsequendce with target sum
 22. Longest Consecutive Sequence
 
+#### Backtracking
+1. Permutations of a String
+
 #### Binary Search Tree
 
 1. Search Key in a BST
@@ -199,5 +202,5 @@ Contributions are always welcome! You can contribute if you discover an alternat
 
 [Striver SDE Sheet](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/#)
 
-### Solved: 125
+### Solved: 126
 

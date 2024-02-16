@@ -199,5 +199,5 @@ Contributions are always welcome! You can contribute if you discover an alternat
 
 [Striver SDE Sheet](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/#)
 
-### Solved: 124
+### Solved: 125
 

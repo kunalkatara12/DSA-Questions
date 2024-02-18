@@ -72,6 +72,7 @@
 24. Largest Divisible Subset
 25. Print Longest Increasing Subsequence(LIS)
 26. Generate Parenthesis
+27. Maximum Number of Operations With the Same Score II
 
 #### Graph
 

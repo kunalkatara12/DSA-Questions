@@ -1,6 +1,6 @@
 # DSA Questions
 
-## Total no. of Questions as of now: 129
+## Total no. of Questions as of now: 130
 
 ## Language
 
@@ -32,6 +32,7 @@
 20. Merge Sorted Array
 21. Min operations to form subsequendce with target sum
 22. Longest Consecutive Sequence
+23. Insert Interval
 
 #### Backtracking
 1. Permutations of a String

@@ -1,1 +1,16 @@
 .vscode/
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# C/C++ build artifacts
+*.o
+*.obj
+*.exe
+*.out
+*.dSYM/
+
+# Local scratch files
+/practice
+/practice.cpp

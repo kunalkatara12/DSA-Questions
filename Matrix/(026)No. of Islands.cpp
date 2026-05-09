@@ -1,8 +1,7 @@
 /*
-Link: https://leetcode.com/problems/number-of-islands/
-https://practice.geeksforgeeks.org/problems/find-the-number-of-islands/1
+Link: https://practice.geeksforgeeks.org/problems/find-the-number-of-islands/1
 
-Problem: Number of Islands
+Problem: Number of Islands (8 directions)
 Statement:
 Given a grid of size n*m (n is the number of rows and m is the number of columns in the grid) consisting of '0's (Water) and '1's(Land). Find the number of islands.
 

@@ -63,13 +63,12 @@ struct TreeNode {
     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
 };
 
-
-    map<int, map<int, multiset<int>>> m;
     vector<vector<int>> verticalTraversal(TreeNode *root)
     {
         vector<vector<int>> ans;
         if (!root)
             return ans;
+        map<int, map<int, multiset<int>>> m;
         queue<pair<TreeNode *, pair<int, int>>> q;
         q.push({root, {0, 0}});
         while (q.size())

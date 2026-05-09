@@ -38,7 +38,7 @@ struct TreeNode
 // Recursive
 TreeNode *searchBSTRecursive(TreeNode *root, int val)
 {
-    if (root == NULL) return NULL;
+    if (root == nullptr) return nullptr;
     if (root->val == val) return root;
 
     root = (val < root->val)? searchBSTRecursive(root->left, val): searchBSTRecursive(root->right, val);
@@ -48,9 +48,9 @@ TreeNode *searchBSTRecursive(TreeNode *root, int val)
 // Iterative
 TreeNode *searchBSTIterative(TreeNode *root, int val)
 {
-    if(root == NULL) return NULL;
+    if(root == nullptr) return nullptr;
 
-    while (root != NULL && root->val != val)
+    while (root != nullptr && root->val != val)
         root = (root->val > val) ? root->left : root->right;
 
     return root;

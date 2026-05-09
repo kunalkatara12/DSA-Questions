@@ -3,7 +3,7 @@ using namespace std;
 
 // Solution 1: O(nlogn) time, O(n) space
 
-int longestConsecutive(vector<int> &nums)
+int longestConsecutiveNlogN(vector<int> &nums)
 {
     if (nums.size() == 0)
         return 0;

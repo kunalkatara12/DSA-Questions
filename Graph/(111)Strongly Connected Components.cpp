@@ -120,9 +120,10 @@ vector<vector<int>> stronglyConnectedComponents(int n, vector<vector<int>> &edge
         st.pop();
         vector<int> topush;
         if (!vis[top])
+        {
             dfs(top, vis, trs, topush);
-
-        ans.push_back(topush);
+            ans.push_back(topush);
+        }
     }
 
     return ans;

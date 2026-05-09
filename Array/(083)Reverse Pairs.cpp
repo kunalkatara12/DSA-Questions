@@ -39,7 +39,7 @@ Constraints:
 // Space: O(1)
 #include <bits/stdc++.h>
 using namespace std;
-class Solution {
+class SolutionBruteForce {
 public:
     int reversePairs(vector<int>& nums) {
         int res = 0;

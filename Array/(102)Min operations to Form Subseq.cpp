@@ -53,14 +53,14 @@ using namespace std;
 
 void calculateBits(int x, vector<int> &a)
 {
-    for (int i = 0; i < 32; i++)
-        if (x & (1 << i))
+    for (int i = 0; i < 31; i++)
+        if ((long long)x & (1LL << i))
             a[i]++;
 }
 
 int minOperations(vector<int> &a, int t)
 {
-    int sum = 0;
+    long long sum = 0;
     // calculate if the total sum
     for (auto k : a)
     {
@@ -96,7 +96,7 @@ int minOperations(vector<int> &a, int t)
             if (!aV[i])
             {
                 j = i + 1;
-                while (!aV[j] && j < 31)
+                while (j < 31 && !aV[j])
                     j++;
 
                 // If no set bit is found in the array, return -1

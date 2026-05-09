@@ -1,7 +1,7 @@
 /*
 Link: https://leetcode.com/problems/sort-colors/
 Problem: Sort Colors
-Statement: 
+Statement:
 Medium
 
 Given an array nums with n objects colored red, white, or blue, sort them in-place so that objects of the same color are adjacent, with the colors in the order red, white, and blue. We will use the integers 0, 1, and 2 to represent the color red, white, and blue, respectively.
@@ -28,26 +28,32 @@ nums[i] is either 0, 1, or 2.
 
 #include <bits/stdc++.h>
 using namespace std;
-void insert(vector<int> &v, int tmp)
-{
-    if (!v.size() || v[v.size() - 1] <= tmp)
-    {
-        v.push_back(tmp);
-        return;
-    }
-    int val = v[v.size() - 1];
-    v.pop_back();
-    insert(v, tmp);
-    v.push_back(val);
-    return;
-}
 void sortColors(vector<int> &v)
 {
-    if (!v.size())
-        return;
+    int low = 0, mid = 0, high = static_cast<int>(v.size()) - 1;
+    while (mid <= high)
+    {
+        if (v[mid] == 0)
+            swap(v[low++], v[mid++]);
+        else if (v[mid] == 1)
+            mid++;
+        else
+            swap(v[mid], v[high--]);
+    }
+}
 
-    int tmp = v[v.size() - 1];
-    v.pop_back();
+void print(vector<int> &v)
+{
+    for (int i = 0; i < v.size(); i++)
+    {
+        cout << v[i] << " ";
+    }
+    cout << endl;
+}
+int main()
+{
+    vector<int> v = {2, 0, 2, 1, 1, 0};
     sortColors(v);
-    insert(v, tmp);
+    print(v);
+    return 0;
 }

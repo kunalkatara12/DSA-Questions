@@ -76,7 +76,7 @@ void permuteBT(string s, vector<string> &res, int n, int i,
         swap(s[j], s[i]);
     }
 }
-vector<string> generateParenthesis(int n)
+vector<string> generateParenthesisPermutation(int n)
 {
     if (n == 0)
         return {""};

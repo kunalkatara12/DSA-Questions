@@ -61,8 +61,9 @@ int minOperations(string s1, string s2)
                 t[i][j] = max(t[i - 1][j], t[i][j - 1]);
         }
     }
-    cout << "Minimum number of deletions: " << n - t[n][m] << endl;
-    cout << "Minimum number of insertions: " << m - t[n][m] << endl;
+    int deletions = n - t[n][m];
+    int insertions = m - t[n][m];
+    return deletions + insertions;
 }
 void func()
 {

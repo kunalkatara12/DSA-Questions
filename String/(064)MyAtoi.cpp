@@ -126,6 +126,9 @@ string trim(string s)
 int myAtoi(string s)
 {
     string str = trim(s);
+    if (str.empty())
+        return 0;
+
     int i = 0;
     int ans = 0, sign = +1;
     vector<int> ansA;

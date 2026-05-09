@@ -38,6 +38,26 @@ Constraints:
 #include <bits/stdc++.h>
 using namespace std;
 
+/**
+ * The function subsetSums calculates all possible subset sums of a given array.
+ * 
+ * @param res The `res` parameter is a reference to a vector of integers where the subset sums will be
+ * stored.
+ * @param arr The `arr` parameter is a vector of integers representing the input array for which you
+ * want to find subset sums.
+ * @param n The parameter `n` in the given code represents the size of the input array `arr`. It is
+ * used to determine the number of elements in the array and control the recursion in the `helper`
+ * function to generate subset sums.
+ * @param sum The `sum` parameter in the `helper` function represents the current sum of elements being
+ * considered in the subset. It is updated as elements are picked or not picked during the recursive
+ * calls.
+ * @param i The parameter `i` in the given code represents the current index of the element being
+ * considered in the array `arr`. It is used to keep track of the current element being processed
+ * during the recursive calls in the `helper` function.
+ * 
+ * @return The function `subsetSums` returns a vector of integers containing all possible subset sums
+ * of the input array `arr`.
+ */
 void helper(vector<int> &res, vector<int> arr, int n, int sum, int i)
 {
     if (i == n)
@@ -45,9 +65,22 @@ void helper(vector<int> &res, vector<int> arr, int n, int sum, int i)
         res.push_back(sum);
         return;
     }
-    helper(res, arr, n, sum + arr[i], i + 1);//pick
-    helper(res, arr, n, sum, i + 1);//not pick
+    helper(res, arr, n, sum + arr[i], i + 1); //pick
+    helper(res, arr, n, sum, i + 1); //not pick
 }
+/**
+ * The function subsetSums calculates all possible subset sums of a given array and returns them in
+ * sorted order.
+ * 
+ * @param arr The `arr` parameter is a vector of integers containing the input elements for which we
+ * need to find subset sums.
+ * @param n The parameter `n` in the `subsetSums` function represents the size of the input array
+ * `arr`. It indicates the number of elements in the array for which you want to calculate the subset
+ * sums.
+ * 
+ * @return The function `subsetSums` is returning a vector of integers, which contains the subset sums
+ * of the input array `arr` up to index `n`.
+ */
 vector<int> subsetSums(vector<int> arr, int n)
 {
     vector<int> res;

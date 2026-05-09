@@ -46,7 +46,7 @@ Expected Auxiliary Space: O(V)
 #include<bits/stdc++.h>
 using namespace std;
 
-void dfs(int vis[], int node, vector<int> adj[], vector<int> &ls)
+void dfs(vector<int> &vis, int node, vector<int> adj[], vector<int> &ls)
 {
     vis[node] = 1;
     ls.push_back(node);
@@ -58,7 +58,7 @@ void dfs(int vis[], int node, vector<int> adj[], vector<int> &ls)
 }
 vector<int> dfsOfGraph(int V, vector<int> adj[])
 {
-    int vis[V] = {0};
+    vector<int> vis(V, 0);
     vector<int> ls;
     dfs(vis, 0, adj, ls);
     return ls;

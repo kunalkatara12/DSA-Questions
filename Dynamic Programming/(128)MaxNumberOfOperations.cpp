@@ -57,15 +57,15 @@ public:
         if (dp[l][r] != -1)
             return dp[l][r];
 
-        int ans = 0, p1 = INT_MIN, p2 = INT_MIN, p3 = INT_MIN;
+        int ans = 0;
         if (nums[l] + nums[l + 1] == score)
-            p1 = recur(l + 2, r, score, nums, dp);
+            ans = max(ans, 1 + recur(l + 2, r, score, nums, dp));
         if (nums[l] + nums[r] == score)
-            p2 = recur(l + 1, r - 1, score, nums, dp);
+            ans = max(ans, 1 + recur(l + 1, r - 1, score, nums, dp));
         if (nums[r] + nums[r - 1] == score)
-            p3 = recur(l, r - 2, score, nums, dp);
+            ans = max(ans, 1 + recur(l, r - 2, score, nums, dp));
 
-        return dp[l][r] = ans = max(ans, 1 + maxRes(p1, p2, p3));
+        return dp[l][r] = ans;
     }
 
     int maxOperations(vector<int> &nums)

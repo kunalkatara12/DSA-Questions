@@ -72,22 +72,18 @@ int mod = (int)1e9 + 7;
 int findWays(vector<int> &arr, int k)
 {
     int n = arr.size();
-    long long int tmp[n + 1][k + 1];
-    for (int i = 0; i <= n; i++)
-        tmp[i][0] = 1;
-
-    for (int j = 1; j <= k; j++)
-        tmp[0][j] = 0;
+    vector<vector<int>> tmp(n + 1, vector<int>(k + 1, 0));
+    tmp[0][0] = 1;
 
     for (int i = 1; i <= n; i++)
     {
-        for (int j = 1; j <= k; j++)
+        for (int j = 0; j <= k; j++)
         {
             if (arr[i - 1] <= j)
-                tmp[i][j] = tmp[i - 1][j - arr[i - 1]] + tmp[i - 1][j];
+                tmp[i][j] = (tmp[i - 1][j - arr[i - 1]] + tmp[i - 1][j]) % mod;
             else
                 tmp[i][j] = tmp[i - 1][j];
         }
     }
-    return tmp[n][k] % mod;
+    return tmp[n][k];
 }

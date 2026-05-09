@@ -51,56 +51,31 @@ Company Tags: Flipkart| Amazon| Microsoft| Samsung| Cisco
 #include <bits/stdc++.h>
 using namespace std;
 
-int findParent(vector<int> &parent, int node)
+int spanningTree(int V, vector<vector<int>> adj[])
 {
-    if (parent[node] == node)
-        return node;
-    return parent[node] = findParent(parent, parent[node]);
-}
+    priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq;
+    vector<int> vis(V, 0);
+    int sum = 0;
+    pq.push({0, 0});
 
-void mergeNodes(vector<int> &parent, vector<int> &rank, int u, int v)
-{
-    u = findParent(parent, u);
-    v = findParent(parent, v);
-    if (rank[u] > rank[v])
-        parent[v] = u;
-    else if (rank[u] < rank[v])
-        parent[u] = v;
-    else
+    while (!pq.empty())
     {
-        parent[v] = u;
-        rank[u]++;
-    }
-}
+        auto [wt, node] = pq.top();
+        pq.pop();
 
-int spanningTree(int n, vector<vector<int>> edges[])
-{
-    int ans = 0;
-    vector<vector<int>> adj;
-    for (int i = 0; i < n; i++)
-        for (auto x : edges[i])
-            adj.push_back({x[0], x[1], x[2]});
-            
-    vector<int> parent(n), rank(n, 0);
-    for (int i = 0; i < n; i++)
-        parent[i] = i;
+        if (vis[node])
+            continue;
 
-    sort(adj.begin(), adj.end(), [](vector<int> &a, vector<int> &b)
-         {
-             return a[2] < b[2]; // Sort by edge weight in ascending order
-         });
+        vis[node] = 1;
+        sum += wt;
 
-    for (int i = 0; i < adj.size(); i++)
-    {
-        int u = findParent(parent, adj[i][0]);
-        int v = findParent(parent, adj[i][1]);
-        int wt = adj[i][2];
-
-        if (u != v)
+        for (auto edge : adj[node])
         {
-            mergeNodes(parent, rank, u, v);
-            ans += wt;
+            int adjNode = edge[0];
+            int edgeWt = edge[1];
+            if (!vis[adjNode])
+                pq.push({edgeWt, adjNode});
         }
     }
-    return ans;
+    return sum;
 }

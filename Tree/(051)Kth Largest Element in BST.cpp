@@ -1,5 +1,5 @@
 /*
-Link: https://leetcode.com/problems/kth-largest-element-in-an-array/
+Link: https://practice.geeksforgeeks.org/problems/kth-largest-element-in-bst/1
 
 Problem: Kth largest element in BST
 Easy

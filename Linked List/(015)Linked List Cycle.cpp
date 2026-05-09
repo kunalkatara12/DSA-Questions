@@ -1,5 +1,5 @@
 /*
-Link: https://badgr.com/public/assertions/5IZRPvXoT8-TPHUh5JubUQ
+Link: https://leetcode.com/problems/linked-list-cycle/
 
 Problem Title: Linked List Cycle
 Statement:

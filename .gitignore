@@ -14,3 +14,7 @@
 # Local scratch files
 /practice
 /practice.cpp
+
+# Python cache files
+__pycache__/
+*.py[cod]

@@ -73,7 +73,51 @@ ListNode *mergeTwoLists(ListNode *list1, ListNode *list2)
 
         headN = headN->next;
     }
- if(tmp1) headN->next = tmp2;
- else headN->next = tmp1;
+    headN->next = tmp1 ? tmp1 : tmp2;
     return newNode->next;
+}
+
+/*
+dummy node approach:
+
+A dummy node is a temporary starting node created before the actual merged list.
+It helps us avoid handling the first node separately.
+
+How it works here:
+1. Create a dummy node.
+2. Keep a pointer `tail` at dummy.
+3. Compare nodes of list1 and list2.
+4. Attach the smaller node to `tail->next`.
+5. Move `tail` forward.
+6. After one list ends, attach the remaining part of the other list.
+7. Return `dummy.next` because dummy itself is not part of the answer.
+
+Example:
+dummy -> 1 -> 1 -> 2 -> 3 -> 4
+
+Here, dummy is only a helper node.
+Actual merged list starts from dummy.next.
+*/
+
+ListNode *mergeTwoLists2(ListNode *list1, ListNode *list2)
+{
+    ListNode dummy(0);
+    ListNode *tail = &dummy;
+
+    while (list1 && list2)
+    {
+        if (list1->val <= list2->val)
+        {
+            tail->next = list1;
+            list1 = list1->next;
+        }
+        else
+        {
+            tail->next = list2;
+            list2 = list2->next;
+        }
+        tail = tail->next;
+    }
+    tail->next = list1 ? list1 : list2;
+    return dummy.next;
 }

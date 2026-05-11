@@ -273,6 +273,18 @@ To add a question directly from the CLI:
 python3 scripts/add_question.py --topic "Array" --name "New Problem Name"
 ```
 
+To estimate time and space complexity for a single solution file:
+
+```bash
+python3 scripts/generate_complexity.py "Recursion/(134)Remove Linked List Elements.cpp"
+```
+
+To write the generated complexity back into the file comment block:
+
+```bash
+python3 scripts/generate_complexity.py "Recursion/(134)Remove Linked List Elements.cpp" --write
+```
+
 To compile a single solution with GCC:
 
 ```bash

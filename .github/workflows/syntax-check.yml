@@ -1,0 +1,23 @@
+name: Syntax Check
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+      - master
+
+jobs:
+  syntax-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check all C++ files
+        run: |
+          find . -name "*.cpp" -print0 | while IFS= read -r -d '' file; do
+            echo "Checking $file"
+            g++ -std=c++17 -fsyntax-only "$file"
+          done

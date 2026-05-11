@@ -102,7 +102,6 @@ Most files are written as judge-style snippets. Some include an empty or sample 
 | 033 | [Find Duplicate](Array/%28033%29Find%20Duplicate.cpp) |
 | 052 | [Kth Largest Element](Array/%28052%29Kth%20Largest%20Element.cpp) |
 | 054 | [4Sum](Array/%28054%294Sum.cpp) |
-| 060 | [Next Permutation](Array/%28060%29Next%20Permutation.cpp) |
 | 067 | [Longest Subarray with 0 Sum](Array/%28067%29Longest%20Subarray%20with%200%20Sum.cpp) |
 | 068 | [Unique Paths](Array/%28068%29Unique%20Paths.cpp) |
 | 081 | [Count Subarrays with XOR K](Array/%28081%29Count%20subarray%20with%20xor%20k.cpp) |
@@ -115,6 +114,7 @@ Most files are written as judge-style snippets. Some include an empty or sample 
 | 102 | [Minimum Operations to Form Subsequence With Target Sum](Array/%28102%29Min%20operations%20to%20Form%20Subseq.cpp) |
 | 106 | [Longest Consecutive Sequence](Array/%28106%29Longest%20Consecutive%20Sequence.cpp) |
 | 130 | [Insert Interval](Array/%28130%29Insert%20Interval.cpp) |
+| 133 | [Next Permutation](Array/%28133%29Next%20Permutation.cpp) |
 
 ### Backtracking
 
@@ -172,7 +172,6 @@ Most files are written as judge-style snippets. Some include an empty or sample 
 | --- | --- |
 | 019 | [BFS of Graph](Graph/%28019%29BFS%20of%20Graph.cpp) |
 | 020 | [DFS of Graph](Graph/%28020%29DFS%20of%20Graph.cpp) |
-| 020 | [Number of Provinces](Graph/%28020%29No.%20of%20Provinces.cpp) |
 | 021 | [Flood Fill](Graph/%28021%29Flood%20Fill.cpp) |
 | 022 | [Find Center of Star Graph](Graph/%28022%29Find%20Center%20of%20Star.cpp) |
 | 025 | [Detect Cycle in Undirected Graph](Graph/%28025%29Detect%20Cycle%20in%20Undirected%20Graph.cpp) |
@@ -184,6 +183,7 @@ Most files are written as judge-style snippets. Some include an empty or sample 
 | 115 | [Minimum Spanning Tree - Prim's Algorithm](Graph/%28115%29MSTusingPrims.cpp) |
 | 116 | [Minimum Spanning Tree - Kruskal's Algorithm](Graph/%28116%29MSTusing_Kruskal.cpp) |
 | 118 | [Mother Vertex](Graph/%28118%29Mother%20Vertex.cpp) |
+| 132 | [Number of Provinces](Graph/%28132%29No.%20of%20Provinces.cpp) |
 
 ### Greedy
 

@@ -1,7 +1,7 @@
 # DSA Questions
 
 ![Language](https://img.shields.io/badge/Language-C%2B%2B17-00599C?style=for-the-badge&logo=cplusplus)
-![Solutions](https://img.shields.io/badge/Solutions-134-2E7D32?style=for-the-badge)
+![Solutions](https://img.shields.io/badge/Solutions-135-2E7D32?style=for-the-badge)
 ![Topics](https://img.shields.io/badge/Topics-13-6A1B9A?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Syntax%20Checked-1565C0?style=for-the-badge)
 
@@ -14,7 +14,7 @@ The goal of this repository is simple: clean problem statements, correct solutio
 
 | Metric | Count |
 | --- | ---: |
-| Total C++ solutions | 134 |
+| Total C++ solutions | 135 |
 | Topic folders | 13 |
 | Primary language | C++17 |
 | Current syntax status | Passing with GNU-style `<bits/stdc++.h>` support |
@@ -24,7 +24,7 @@ The goal of this repository is simple: clean problem statements, correct solutio
 | Topic | Problems |
 | --- | ---: |
 | Array | 23 |
-| Backtracking | 2 |
+| Backtracking | 3 |
 | Binary Search Tree | 4 |
 | Dynamic Programming | 29 |
 | Graph | 14 |
@@ -134,6 +134,7 @@ Most files are written as judge-style snippets. Some include an empty or sample 
 | --- | --- |
 | 126 | [Permutations of a String](Backtracking/%28126%29PermutationsOfString.cpp) |
 | 127 | [Largest Number in K Swaps](Backtracking/%28127%29FindMaxNoInKSwap.cpp) |
+| 135 | [Finding 3-Digit Even Numbers](Backtracking/%28135%29Finding%203-Digit%20Even%20Numbers.cpp) |
 
 ### Binary Search Tree
 
